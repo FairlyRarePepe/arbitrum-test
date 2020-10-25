@@ -8,7 +8,7 @@ PRE-REQUISITES:
 Steps :
 - download/clone repo
 - npm install
-- create an .env file that declares the MNEMONIC variable and the INFURA_URL variable
+- create an .env file that declares the MNEMONIC variable and the INFURA_URL variable (linking to the Kovan testnet)
 - truffle deploy --network kovan --skip-dry-run
 - truffle deploy --network arbitrum --skip-dry-run
 - node swap-script.js
